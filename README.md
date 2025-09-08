@@ -1,69 +1,86 @@
 # EXP-2-PROMPT-ENGINEERING-
+
 ## Aim: 
 Comparative Analysis of different types of Prompting patterns and explain with Various Test Scenarios
 
-## Experiment:
+Experiment:
 Test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios. 
 Analyze the quality, accuracy, and depth of the generated responses.
 
 
 ## Algorithm:
-Step 1: Start the experiment.
+1. Start the experiment.
+2. Choose a test scenario (e.g., Summarization, Coding, Explanation, or Creative Task).
+3. Frame two prompts for the scenario:
 
-Step 2: Select a test scenario (e.g., General Knowledge, Creative Writing, Problem Solving, or Data Analysis).
+   * Broad / Unstructured
+   * Refined / Structured
+4. Input the Broad Prompt into the AI model and record the output.
+5. Input the Refined Prompt into the AI model and record the output.
+6. Compare outputs based on **clarity, accuracy, and depth**.
+7. Repeat steps 2–6 for multiple scenarios.
+8. Document results in a comparison table.
+9. Analyze differences between broad and refined prompting.
+10. Conclude the experiment.
 
-Step 3: Frame two types of prompts for the chosen scenario:
+## Output
+Scenario 1: Summarization
 
-Broad / Unstructured Prompt.
+Broad Prompt: “Tell about climate change.”
 
-Refined / Structured Prompt.
-
-Step 4: Input the Broad Prompt into the AI model and record the generated response.
-
-Step 5: Input the Refined Prompt into the AI model and record the generated response.
-
-Step 6: Compare the two outputs 
-
-Step 7: Repeat Steps 2–6 for multiple scenarios.
-
-Step 8: Document the findings in a tabular format (Broad vs Refined output).
-
-Step 9: Analyze which type of prompting yields better quality responses.
-
-Step 10: Conclude the experiment.
-## OUTPUT
-
-[BALAJI A Comparative Analysis of Different Types of Prompting Patterns with Test Scenarios.pdf](https://github.com/user-attachments/files/22098781/BALAJI.A.Comparative.Analysis.of.Different.Types.of.Prompting.Patterns.with.Test.Scenarios.pdf)
+Output: <img width="1919" height="852" alt="image" src="https://github.com/user-attachments/assets/7c8dfd20-cd0e-47a7-a33f-50cfd95906e4" />
 
 
-.
-Scenario 1: General Knowledge
-Broad Prompt : “Tell me about Artificial Inteliigence.”
-## output:
-<img width="1115" height="509" alt="Screenshot 2025-09-01 090702" src="https://github.com/user-attachments/assets/4785dc7d-493a-4e55-976c-e5c1494c28ac" />
+Refined Prompt: “Summarize climate change in 3 sentences, focusing on its impact on agriculture.”
 
-Refined Prompt : “Explain Artificial intelligence in simple terms with three real-world applications in healthcare and education.”
-## output:
-<img width="1051" height="572" alt="Screenshot 2025-09-01 090711" src="https://github.com/user-attachments/assets/ae87081d-9549-4913-b830-bbda4ccfe5fb" />
+Output:<img width="1918" height="455" alt="image" src="https://github.com/user-attachments/assets/dded06ef-b02f-4905-ae97-8da5f4738e03" />
 
-Scenario 2: Creative Writing
-Broad Prompt : “Write a story about human life.”
-## output:
-<img width="984" height="650" alt="Screenshot 2025-09-01 091138" src="https://github.com/user-attachments/assets/2e258672-643e-4fe9-af67-f8444055a1ac" />
 
-Refined Prompt : “Write a 100-word story about human life.”
-## output:
-<img width="1051" height="522" alt="Screenshot 2025-09-01 091150" src="https://github.com/user-attachments/assets/ba0743ab-114a-4d3c-923c-f89547d73c5c" />
+Scenario 2: Equation
 
-Scenario 3: Problem Solving (Math) 
-Broad Prompt : “Solve this: 4x+3y-6 = 24.”
-## output:
-<img width="1001" height="706" alt="Screenshot 2025-09-01 091702" src="https://github.com/user-attachments/assets/b7c3a962-9492-4d0b-8442-82861ad746e2" />
+Broad Prompt: “Write a Equation.”
 
-Scenario 4: Instructional / Practical Task
-Broad Prompt : “Write a letter.”
-## output 
-<img width="999" height="609" alt="Screenshot 2025-09-01 091711" src="https://github.com/user-attachments/assets/62bd6c23-5506-483e-bbef-3c2159c8a0eb" />
+Output:<img width="1919" height="549" alt="image" src="https://github.com/user-attachments/assets/4d24f269-58de-4cf8-b28c-799711e5f1cc" />
+
+
+
+Refined Prompt: “Write a quadratic equation in standard form and provide its solution for real roots.”
+
+Output:<img width="1919" height="1034" alt="image" src="https://github.com/user-attachments/assets/89b55e95-3ebc-4096-a19b-17ec9993e9e8" />
+
+Scenario 3: Explanation
+
+Broad Prompt: “Explain Machine Learning.”
+
+Output: <img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/150a762f-a62d-4347-91bb-4d464acad5ca" />
+
+
+Refined Prompt: “Explain Machine Learning in simple terms with one real-world example in banking.”
+
+Output: <img width="1917" height="1027" alt="image" src="https://github.com/user-attachments/assets/85b2345b-45b2-428f-9f69-5fbc36d0d279" />
+
+
+Scenario 4: Creative Task
+
+Broad Prompt: “Write a poem.”
+
+Output: <img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/9eef7d82-c29b-4773-9406-6cafaef91224" />
+
+
+Refined Prompt: “Write a short 8-line poem about sunrise and hope.”
+
+Output:<img width="1917" height="1026" alt="image" src="https://github.com/user-attachments/assets/b43cf9b9-3511-4af8-a794-0ecc1bb9f2d4" />
+
+
+**Comparitive Analysis Table**
+
+| Scenario      | Broad Prompt Output        | Refined Prompt Output                  | Quality                     | Accuracy              | Depth                         |
+| ------------- | -------------------------- | -------------------------------------- | --------------------------- | --------------------- | ----------------------------- |
+| Summarization | General, lengthy           | Concise, domain-specific (agriculture) | Refined clearer             | Refined more precise  | Refined adds focus            |
+| Equation      | Very simple                | Complete recursive solution            | Refined more useful         | Refined correct       | Refined deeper explanation    |
+| Explanation   | Covers many areas, verbose | Clear analogy + banking example        | Refined more understandable | Refined accurate      | Refined gives practical depth |
+| Creative Task | Generic nature poem        | Specific 4-line poem on sunrise/hope   | Refined engaging            | Refined matches theme | Refined thematic depth        |
+
 
 ## Result
-Broad prompts give general and creative outputs but lack focus.Refined prompts provide accurate, structured, and context-specific results.Overall, refined prompting improves quality, accuracy, and clarity, while broad prompting is better for brainstorming.
+The experiment shows that refined prompts consistently outperform broad prompts in terms of clarity, accuracy, and contextual depth. Broad prompts often lead to generic or verbose outputs, while refined prompts generate focused, structured, and relevant responses aligned with the intended scenario. Hence, refined prompting improves the overall quality and usefulness of AI-generated outputs.
